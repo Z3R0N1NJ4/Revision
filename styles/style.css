@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: whitesmoke; 
+  background-color: whitesmoke !important; 
 }
 
 .fit{
@@ -10,28 +10,28 @@
   width: 80%;
   margin-left: 10%;
   border-radius: 360px;
-  border: 2px solid rebeccapurple;
+  border: 2px solid rebeccapurple !important;
 }
 
 .menu{
-  background-color: aqua;
+  background-color: aqua !important;
   padding-left: 6%;
 }
 
 .menu-list{
-  background-color: aqua;
+  background-color: aqua !important;
   display: flex; 
   padding: 20px;
   margin-bottom: 20px;
   
-  list-style-type: none;
+  list-style-type: none !important;
 }
 
 .menu-list, ul, li, a{
-  background-color: aqua;
+  background-color: aqua !important;
   margin-inline: 7px;
-  text-decoration: none;
-  color: black;
+  text-decoration: none !important;
+  color: black !important;
   font-size: 25px;
 }
 
@@ -51,26 +51,26 @@
 }
 
 #form{
-  box-shadow: 5px 10px 20px #191919;
-  margin-left: 2%;
+  box-shadow: 5px 10px 20px #191919 !important;
+  margin-left: 2% !important;
   margin-top: 50px;
-  padding-left: 10px;
+  padding-left: 10px !important;
   padding-top: 8px;
-  margin-right: 40%;
+  margin-right: 40% !important;
   margin-bottom: 50px;
   padding-bottom: 20px;
-  padding-right: 10px;
-  border: 2px solid burlywood;
+  padding-right: 10px !important;
+  border: 2px solid burlywood !important;
 }
 
 #fname, #lname, #country, #subject{
-  width: 100%;
-  border: 2px solid burlywood;
+  width: 100% !important;
+  border: 2px solid burlywood !important;
  
 }
 
 #submit{
-  background-color: burlywood;
+  background-color: burlywood !important;
   width: 10%;
   height: 25px;
   margin-left: 10%;
